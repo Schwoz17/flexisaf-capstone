@@ -133,3 +133,5 @@ Without a key, the app automatically falls back to the rule-based advisory — t
 | 5 | Charts & insights | `visuals/` |
 | 6 | PDF slide summary (link, not Google Drive) | 
 | 7 | All deliverables linked from GitHub repo | 
+| 6 | PDF slide summary (link, not Google Drive) | [fee_defaulter_capstone_summary.pdf](https://github.com/Schwoz17/flexisaf-capstone/blob/main/fee_defaulter_capstone_summary.pdf) |
+| 7 | All deliverables linked from GitHub repo | ✅ This repo |
