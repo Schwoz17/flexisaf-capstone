@@ -31,6 +31,8 @@ dataset = fetch_ucirepo(id=697)
 ```
 Or download directly from the [UCI dataset page](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success).
 
+A copy of the dataset (`students data.csv`) is included directly in this repository for convenience and reproducibility.
+
 **Reframing:** the dataset's original purpose is a 3-class dropout classifier (Dropout/Enrolled/Graduate). This project repurposes its `Tuition fees up to date` field — a genuine binary payment-status flag — as the prediction target instead, since that's the field that actually corresponds to fee default.
 
 **Important caveat on the target:** `Tuition fees up to date` is a payment-status *snapshot* captured around enrollment time, not a formal, sustained default event with severity or duration. It's the closest real proxy publicly available for fee default — genuinely a payment-status field, not a fabricated stand-in — but it's softer than "default" in the strict financial sense. This is stated explicitly rather than glossed over.
