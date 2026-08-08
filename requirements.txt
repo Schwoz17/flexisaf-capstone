@@ -4,3 +4,4 @@ scikit-learn
 shap
 joblib
 groq
+python-dotenv

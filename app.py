@@ -107,7 +107,7 @@ def template_advisory(risk_score, factors):
     return text
 
 def generate_advisory(risk_score, factors):
-    api_key = os.environ.get("GROQ_API_KEY")
+    api_key = os.environ.get("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY")
     if not api_key:
         return template_advisory(risk_score, factors) + "\n\n*(No GROQ_API_KEY set — rule-based fallback)*"
     try:
