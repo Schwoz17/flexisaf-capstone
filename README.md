@@ -11,7 +11,7 @@ An ML system that predicts which students are likely to fall behind on tuition f
 Most fee-risk models stop at "flag the student." This one goes further: it explains *why* a student is at risk (SHAP-driven, per-student) and generates a specific, actionable recommendation for what to do about it (LLM-powered) — turning a risk score into an actual intervention plan.
 
 ## Live Demo
-> Deploy via [Streamlit Community Cloud](https://share.streamlit.io) pointing at `app.py`, then paste the link here.
+[Try it live](https://flexisaf-capstone.streamlit.app/)
 
 ## Problem Statement
 School administrators need to identify students at risk of falling behind on fee payments *before* it happens, so interventions (payment plans, financial counseling, scholarship referral) can happen proactively instead of reactively.
